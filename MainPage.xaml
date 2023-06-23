@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppDBP1.MainPage">
+    <ScrollView>
+        <StackLayout Background="#ffadd8e6" >
+        <Label x:Name="x_principal"
+               Text="Bienvenido llene sus datos"
+               FontSize="Medium"
+               Margin="8"/>
+
+
+        
+        <Frame Margin="8"
+               Padding="4"
+               Background="white">
+            
+            <StackLayout>
+                <Label x:Name="lbl_curriculum" FontSize="Medium" TextColor="Black" />
+                <Entry x:Name="x_nombre"
+                       Placeholder="Ingrese su nombre"
+                       FontSize="Medium"
+                       TextColor="Black"
+                        PlaceholderColor="Black"
+                       />    
+                <Entry x:Name="x_correo"
+                       Placeholder="ingrese correo"
+                       FontSize="Medium"
+                       TextColor="Black"
+                        PlaceholderColor="Black"
+                    />
+                <Entry x:Name="x_telefono"
+                       Placeholder="ingrese su telefono"
+                       FontSize="Medium"
+                       TextColor="Black"
+                        PlaceholderColor="Black"
+                    />
+                <Entry x:Name="x_ciudad"
+                       Placeholder="ingrese su ciudad de nacimiento"
+                       FontSize="Medium"
+                       TextColor="Black"
+                        PlaceholderColor="Black"
+                    />
+                <Entry x:Name="x_idioma1"
+                       Placeholder="ingrese su idioma"
+                       FontSize="Medium"
+                       TextColor="Black"
+                        PlaceholderColor="Black"
+                    />
+                <Entry x:Name="x_idioma2"
+                       Placeholder="ingrese su segundo idioma"
+                       FontSize="Medium"
+                       TextColor="Black"
+                        PlaceholderColor="Black"
+                    />
+                <Entry x:Name="x_aptitudes1"
+                       Placeholder="ingrese su aptitud"
+                       FontSize="Medium"
+                       TextColor="Black"
+                        PlaceholderColor="Black"
+                    />
+                <Entry x:Name="x_aptitudes2"
+                       Placeholder="ingrese su aptitud"
+                       FontSize="Medium"
+                       TextColor="Black"
+                        PlaceholderColor="Black"
+                    />
+                <Entry x:Name="x_aptitudes3"
+                       Placeholder="ingrese su aptitud"
+                       FontSize="Medium"
+                       TextColor="Black"
+                        PlaceholderColor="Black"
+                    />
+                <Entry x:Name="x_aptitudes4"
+                       Placeholder="ingrese su aptitud"
+                       FontSize="Medium"
+                       TextColor="Black"
+                        PlaceholderColor="Black"
+                    />
+                <Entry x:Name="x_habilidades1"
+                       Placeholder="ingrese su habilidad"
+                       FontSize="Medium"
+                       TextColor="Black"
+                        PlaceholderColor="Black"
+                    />
+                <Entry x:Name="x_habilidades2"
+                       Placeholder="ingrese su habilidad"
+                       FontSize="Medium"
+                       TextColor="Black"
+                        PlaceholderColor="Black"
+                    />
+                <Entry x:Name="x_habilidades3"
+                       Placeholder="ingrese su habilidad"
+                       FontSize="Medium"
+                       TextColor="Black"
+                        PlaceholderColor="Black"
+                    />
+                <Entry x:Name="x_habilidades4"
+                       Placeholder="ingrese su habilidad"
+                       FontSize="Medium"
+                       TextColor="Black"
+                        PlaceholderColor="Black"
+                    />
+                <Entry x:Name="x_interes1"
+                       Placeholder="ingrese algun interes"
+                       FontSize="Medium"
+                       TextColor="Black"
+                        PlaceholderColor="Black"
+                    />
+                <Entry x:Name="x_interes2"
+                       Placeholder="ingrese algun interes"
+                       FontSize="Medium"
+                       TextColor="Black"
+                        PlaceholderColor="Black"
+                    />
+                <Entry x:Name="x_interes3"
+                       Placeholder="ingrese algun interes"
+                       FontSize="Medium"
+                       TextColor="Black"
+                        PlaceholderColor="Black"
+                    />
+                <Entry x:Name="x_perfil"
+                       Placeholder="breve resumen de su perfil"
+                       FontSize="Medium"
+                       TextColor="Black"
+                        PlaceholderColor="Black"
+                    />
+                <Entry x:Name="x_exlaboral1"
+                       Placeholder="experiencia laboral"
+                       FontSize="Medium"
+                       TextColor="Black"
+                        PlaceholderColor="Black"
+                    />
+                <Entry x:Name="x_exlaboral2"
+                       Placeholder="experiencia laboral"
+                       FontSize="Medium"
+                       TextColor="Black"
+                        PlaceholderColor="Black"
+                    />
+                <Entry x:Name="x_exlaboral3"
+                       Placeholder="experiencia laboral"
+                       FontSize="Medium"
+                       TextColor="Black"
+                        PlaceholderColor="Black"
+                    />
+                <Entry x:Name="x_exlaboral4"
+                       Placeholder="experiencia laboral"
+                       FontSize="Medium"
+                       TextColor="Black"
+                        PlaceholderColor="Black"
+                    />
+                <Entry x:Name="x_formacion1"
+                       Placeholder="centro de estudios basico"
+                       FontSize="Medium"
+                       TextColor="Black"
+                        PlaceholderColor="Black"
+                    />
+                <Entry x:Name="x_formacion2"
+                       Placeholder="centro de estudios superiores"
+                       FontSize="Medium"
+                       TextColor="Black"
+                        PlaceholderColor="Black"
+                    />
+                <Entry x:Name="x_formacion3"
+                       Placeholder="estudios posgrados"
+                       FontSize="Medium"
+                       TextColor="Black"
+                        PlaceholderColor="Black"
+                    />
+                
+            </StackLayout>
+        </Frame>
+        <Button x:Name="btn_guardar"
+                Text="Guardar"
+                Clicked="btn_guardar_Clicked" />
+        
+           
+       
+        
+    </StackLayout>
+    </ScrollView>
+</ContentPage>
